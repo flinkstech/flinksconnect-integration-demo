@@ -1,0 +1,179 @@
+body {
+  background-color: #f7f7f7;
+  color: #000;
+}
+
+footer {
+  color: #fff;
+  background-color: #232323;
+}
+
+iframe {
+  display: block;
+  border: none;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.btn-custom {
+  background-color: #2d2b52;
+  color: #fff;
+  text-transform: uppercase;
+  transition: background-color 0.2s;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom:visited {
+  background-color: #423f75;
+  color: #fff;
+}
+
+.dropdown-custom button {
+  background-color: transparent;
+  color: #000;
+  border: none;
+}
+
+.dropdown-custom .dropdown-menu {
+    left: -96px;
+}
+
+.dropdown-item:active {
+  background-color: #ccc;
+}
+
+.dropdown-custom button.dropdown-toggle:active,
+.dropdown-custom button.dropdown-toggle:hover,
+.dropdown-custom button.dropdown-toggle:focus,
+.dropdown-custom button.dropdown-toggle:active,
+.dropdown-custom button.dropdown-toggle:visited,
+.dropdown-custom.show button.dropdown-toggle:active,
+.dropdown-custom.show button.dropdown-toggle:hover,
+.dropdown-custom.show button.dropdown-toggle:focus,
+.dropdown-custom.show button.dropdown-toggle:active,
+.dropdown-custom.show button.dropdown-toggle:visited {
+  background-color: transparent !important;
+  color: #000 !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-brand img {
+  display: inline-block;
+  width: 150px;
+}
+
+.font-handwrite {
+  position: relative;
+  bottom: -5px;
+  display: inline-block;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #aaaaaa;
+}
+
+.progress-custom .progress-bar {
+  background-color: #004683;
+}
+
+.fa-lock {
+  color: #004683;
+}
+
+.iframe-offset {
+  position: relative;
+  left: -4px;
+}
+
+
+h2, .h2 {
+  font-size: 1.8em;
+}
+
+.progress-wrapper {
+  position: relative;
+  min-height: 56px;
+}
+
+.progress {
+  background: #2D427C;
+
+  -webkit-mask-image: url("imgs/dots.png");
+  mask-image: url("imgs/dots.png");
+
+  mask-position: left center;
+  mask-repeat: repeat-x;
+
+  -webkit-mask-size: 43px 5px;
+  mask-size: 43px 5px;
+
+  height: 6px;
+}
+
+.progress-bar {
+  background: linear-gradient(to right, #00ACE4 90%, #2D427C 100%);
+
+  -webkit-mask-image: url("imgs/dots.png");
+  mask-image: url("imgs/dots.png");
+
+  mask-position: left center;
+  mask-repeat: repeat-x;
+
+  -webkit-mask-size: 43px 5px;
+  mask-size: 43px 5px;
+
+  height: 6px;
+}
+
+.progress-steps {
+  position: absolute;
+  top: 1rem; /* height of progress-bar */
+  left: 0;
+  right: 0;
+}
+
+.progress-steps .progress-step:first-child {
+  text-align: left;
+}
+
+.progress-steps .progress-step:last-child {
+  text-align: right;
+}
+
+.progress-step {
+  width: 33%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2D427C;
+  font-size: 10px;
+}
+
+.progress-step.active {
+  color: #00ACE4;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-brand img {
+    width: 150px;
+  }
+
+  .main-container {
+    min-height: 400px;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  .progress-wrapper {
+    min-height: auto;
+  }
+
+  footer {
+    min-height: 50px;
+  }
+}
