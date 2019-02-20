@@ -20,9 +20,13 @@ git clone https://github.com/flinkstech/flinksconnect-integration-demo
 
 From the root directory you can directly open the `index.html` file in your browser to run the demo.
 
+Once open in a browser, it's possible to play with the demo and to experience the look and feel for a page with Flinks Connect.
 
+![Flinks Connect Integration Demo](https://github.com/flinkstech/flinksconnect-integration-demo/blob/master/imgs/doc/flinksconnect-demo.gif)
 
-This is the used iframe URL in this example:
+All features and options for Flinks Connect are directly entered as a URI parameter in the iframe URL.
+
+For this project, this is the iframe URL used:
 
 ```html
 <iframe class="iframe-offset"
@@ -33,7 +37,7 @@ This is the used iframe URL in this example:
    institutionFilterEnable=true&demo=true" height="760" scrolling="no">
 </iframe>
 ```
-
+All parameters and options are described in [**Flinks API documentation**](https://sandbox.flinks.io/Readme/#flinks-connect).
 ## Event Listener
 To activate the event listener into your page, you need to add the following script into your page:
 
