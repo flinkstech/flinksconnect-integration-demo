@@ -1,14 +1,28 @@
 # Flinks Connect Integration Demo
 
-This project is a simple example of Flinks Connect integration using a few features as example.
+This project is a simple example of an integration of Flinks Connect in a generic on boarding page.
 
-For this integration a sandbox instance of Flinks Connect is used, which you only be able to successfully authenticate accounts our dummy institution Flinks Capital.
+This integration uses a sandbox instance of Flinks Connect, which *you only be able to successfully authenticate accounts our dummy institution Flinks Capital*.
 
-All available accounts for this institution you can find [here](https://sandbox.flinks.io/Readme/#flinks-capital-dummy-institution).
+All available accounts for this institution you can find [**here**](https://sandbox.flinks.io/Readme/#flinks-capital-dummy-institution).
 
-## Installation
+## Running the demo
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+You can simply clone this repository to your computer:
+
+```git
+git clone https://github.com/flinkstech/flinksconnect-integration-demo
+```
+
+###### Cloning the repo
+
+![Cloning the Repository](https://github.com/flinkstech/flinksconnect-integration-demo/imgs/doc/cloning-repo.gif)
+
+From the root directory you can directly open the `index.html` file in your browser to run the demo.
+
+
+
+This is the used iframe URL in this example:
 
 ```html
 <iframe class="iframe-offset"
@@ -32,7 +46,7 @@ To activate the event listener into your page, you need to add the following scr
 ```
 
 ## Get Support!
-All technical questions you have can be found in [Flinks Help Portal](https://help.flinks.io)
+All technical questions you have can be found at [**Flinks Help Portal**](https://help.flinks.io).
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
