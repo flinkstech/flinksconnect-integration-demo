@@ -16,7 +16,7 @@ git clone https://github.com/flinkstech/flinksconnect-integration-demo
 
 ###### Cloning the repo
 
-![Cloning the Repository](https://github.com/flinkstech/flinksconnect-integration-demo/imgs/doc/cloning-repo.gif)
+![Cloning the Repository](https://github.com/flinkstech/flinksconnect-integration-demo/blob/master/imgs/doc/cloning-repo.gif)
 
 From the root directory you can directly open the `index.html` file in your browser to run the demo.
 
