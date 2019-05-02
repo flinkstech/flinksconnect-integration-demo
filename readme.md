@@ -1,3 +1,9 @@
+
+
+
+
+
+
 # Flinks Connect Integration Demo
 
 This project is a simple example of an integration of Flinks Connect in a generic on boarding page.
@@ -11,9 +17,7 @@ All available accounts for this test institution are listed [**here**](https://s
 ## Running the integration demo
 
 ###### Downloading the zip file
-You can download the Flinks Connect Integration demo files [clicking here](https://github.com/flinkstech/flinksconnect-integration-demo/archive/master.zip)
-
-Or you can clone this repository:
+You can download the Flinks Connect Integration demo files [clicking hereOr you can clone this repository:
 
 ```git
 git clone https://github.com/flinkstech/flinksconnect-integration-demo

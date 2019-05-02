@@ -162,7 +162,9 @@ $(function() {
       $successWrapper.removeClass('d-none');
 
       // Display the loginId
-      // $loginId.text(getParameterByName('loginId', state.url));
+      if (window.location.href.indexOf('&showLoginId=true')) {
+        $loginId.text('Login ID = ' +getParameterByName('loginId', state.url));
+      }
       console.log('loginId', getParameterByName('loginId', state.url));
 
       // Hide the steps title and progressbar
